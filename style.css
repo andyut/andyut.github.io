@@ -39,6 +39,7 @@ h2.mt{margin-top:64px}
 .about .checks li{background:var(--bg);box-shadow:none}
 .why{display:grid;grid-template-columns:repeat(2,1fr);gap:0 16px}
 .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}
+.g3{grid-template-columns:repeat(3,1fr);gap:24px}.g3 .cb h3{font-size:1.05rem}
 .card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 6px 24px rgba(11,36,71,.09);display:flex;flex-direction:column;transition:.2s}
 .card:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(11,36,71,.14)}
 .card img{aspect-ratio:16/9;object-fit:cover;width:100%}
@@ -53,7 +54,7 @@ h2.mt{margin-top:64px}
 .demo{font-size:.9rem;background:#fff8e1;border-radius:8px;padding:6px 10px}
 .center{text-align:center;margin-top:36px}
 .svc{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
-.sv{background:#fff;border-radius:16px;padding:24px;box-shadow:0 4px 18px rgba(11,36,71,.07);border-top:4px solid var(--teal)}
+.sv{background:var(--bg);border-radius:16px;padding:24px;box-shadow:0 4px 18px rgba(11,36,71,.07);border-top:4px solid var(--teal)}
 .sv h3{margin:0 0 8px;color:var(--navy);font-size:1.08rem}.sv p{margin:0;color:#3b4d60;font-size:.95rem}
 .contact{background:linear-gradient(120deg,var(--navy),#145a8a);color:#fff}
 .contact h2{color:#fff}.contact .intro{color:#cfe0ef}
@@ -63,7 +64,7 @@ h2.mt{margin-top:64px}
 footer{background:#08172f;color:#8fa3b8;text-align:center;padding:22px 0;font-size:.9rem}
 .fab{position:fixed;right:20px;bottom:20px;z-index:60;width:58px;height:58px;border-radius:50%;background:var(--wa);color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 20px rgba(0,0,0,.25)}
 .fab svg{width:32px;height:32px}
-@media (max-width:1000px){.svc{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:1000px){.svc{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:860px){
  .burger{display:block}
  .links{display:none;position:absolute;top:64px;left:0;right:0;background:var(--navy);flex-direction:column;align-items:stretch;gap:0;padding:8px 24px 18px}
@@ -73,6 +74,6 @@ footer{background:#08172f;color:#8fa3b8;text-align:center;padding:22px 0;font-si
  .hero{background-image:linear-gradient(rgba(8,22,52,.78),rgba(8,22,52,.86)),url(img/hero_bg_m.webp);background-position:right center;min-height:auto}
  .hero .herobox{padding:48px 18px 56px}
  .sec{padding:56px 0}.wrap{padding:0 18px}
- .about,.grid,.why,.svc{grid-template-columns:1fr}.about{gap:24px}
+ .about,.grid,.g3,.why,.svc{grid-template-columns:1fr}.about{gap:24px}
  .cb{padding:16px 18px 20px}
 }
