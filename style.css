@@ -19,6 +19,7 @@ code{background:#eef2f6;padding:1px 6px;border-radius:5px;font-size:.88em}
 .btn-outline{background:transparent;border-color:#fff;color:#fff}
 .btn-outline-dark{background:transparent;color:var(--navy2)}
 .btn-ghost{background:#fff;color:var(--navy2)}
+.btn-th{background:#fff;color:#111;border-color:#111}.btn-th:hover{background:#111;color:#fff}
 .btns{display:flex;flex-wrap:wrap;gap:10px}
 .hero{background:var(--navy) url(img/hero_bg.webp) center right/cover no-repeat;color:#fff;min-height:560px;display:flex;align-items:center}
 .herobox{padding:72px 24px;width:100%}
@@ -59,7 +60,8 @@ h2.mt{margin-top:64px}
 .contact{background:linear-gradient(120deg,var(--navy),#145a8a);color:#fff}
 .contact h2{color:#fff}.contact .intro{color:#cfe0ef}
 .cgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
-.ci{display:block;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:18px;color:#fff;text-decoration:none;font-weight:600;word-break:break-word;transition:.2s}
+.ci{display:flex;gap:14px;align-items:center;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:18px;color:#fff;text-decoration:none;font-weight:600;word-break:break-word;transition:.2s}
+.ci svg{width:28px;height:28px;flex:none;color:var(--mint)}
 .ci:hover{background:rgba(255,255,255,.16)}.ci small{display:block;color:var(--mint);font-weight:500;margin-bottom:4px}
 footer{background:#08172f;color:#8fa3b8;text-align:center;padding:22px 0;font-size:.9rem}
 .fab{position:fixed;right:20px;bottom:20px;z-index:60;width:58px;height:58px;border-radius:50%;background:var(--wa);color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 20px rgba(0,0,0,.25)}
@@ -76,4 +78,5 @@ footer{background:#08172f;color:#8fa3b8;text-align:center;padding:22px 0;font-si
  .sec{padding:56px 0}.wrap{padding:0 18px}
  .about,.grid,.g3,.why,.svc{grid-template-columns:1fr}.about{gap:24px}
  .cb{padding:16px 18px 20px}
+ .cb .btns .btn{flex:1 1 auto;justify-content:center}
 }
