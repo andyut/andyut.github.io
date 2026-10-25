@@ -95,4 +95,4 @@ footer{background:#08172f;color:#8fa3b8;text-align:center;padding:22px 0;font-si
 .price{margin:4px 0 14px;font-size:1.1rem;color:var(--navy)}.price s{color:#8a97a8;font-size:.9rem;margin-left:6px}
 .card img.sq{aspect-ratio:1/1;object-fit:cover}
 @media (min-width:1001px){.g3 .card:last-child:nth-child(odd){grid-column:auto;width:auto;justify-self:stretch}}
-.brand{white-space:nowrap;flex-shrink:0}
+.brand{white-space:nowrap;flex-shrink:0;margin-right:20px}
