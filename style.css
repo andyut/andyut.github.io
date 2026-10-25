@@ -92,3 +92,4 @@ footer{background:#08172f;color:#8fa3b8;text-align:center;padding:22px 0;font-si
  .gal{grid-template-columns:repeat(2,1fr);gap:12px}.gal figcaption{padding:8px 10px;font-size:.8rem}
  .cb .btns .btn{flex:1 1 auto;justify-content:center}
 }
+.price{margin:4px 0 14px;font-size:1.1rem;color:var(--navy)}.price s{color:#8a97a8;font-size:.9rem;margin-left:6px}
