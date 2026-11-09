@@ -109,7 +109,7 @@ footer{background:#08172f;color:#8fa3b8;text-align:center;padding:22px 0;font-si
 .shots a:hover img{transform:scale(1.04)}
 .shots span{display:block;padding:5px 9px;font-size:.78rem;font-weight:500;color:var(--navy2);background:#fff;border-top:1px solid #e3e9f0}
 .feat .shots{grid-template-columns:repeat(4,1fr)}
-.feat .price b{color:#5b34c4}
+.lic{margin:4px 0 14px;font-size:1.05rem;color:var(--navy)}.feat .lic b{color:#5b34c4}
 @media (min-width:1001px){
  .demos .feat{display:grid;grid-template-columns:1.15fr 1fr;align-items:start}
  .demos .feat .cimg{height:100%;display:flex;align-items:center;background:linear-gradient(135deg,#1e1b4b,#5b34c4)}
