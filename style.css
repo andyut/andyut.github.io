@@ -128,4 +128,4 @@ footer{background:#08172f;color:#8fa3b8;text-align:center;padding:22px 0;font-si
 .fmedia .shots span{background:transparent;color:#e9e4ff;border-top-color:rgba(255,255,255,.14)}
 @media (min-width:1001px){.demos .feat .fmedia{align-self:stretch;display:flex;flex-direction:column;justify-content:center;padding:8px 0}.demos .feat .fmedia .cimg{height:auto;display:block;background:transparent}}
 @media (min-width:1241px){.links{gap:14px}.links a{font-size:.88rem}.brand{margin-right:12px}}
-.stats{max-width:600px}
+.stats{max-width:520px}
