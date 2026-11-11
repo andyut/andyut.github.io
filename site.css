@@ -333,3 +333,9 @@ footer b{color:#e8dcc6;font-family:"Cormorant Garamond",Georgia,serif;font-size:
 .xgrid .card>img.sq{width:50%;height:auto;align-self:flex-start;border-right:1px solid var(--line);border-bottom:1px solid var(--line);border-bottom-right-radius:18px}
 .xgrid .cb{align-self:stretch;padding:20px 22px 22px}
 @media (max-width:760px){.xgrid .card>img.sq{width:100%;border-right:0;border-bottom-right-radius:0}}
+.t-navy .brand{flex-direction:row;align-items:center;gap:12px}
+.bmark{width:48px;height:39px;flex:none}
+.btext{display:flex;flex-direction:column;line-height:1}
+.fbrand{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}.fbrand img{width:35px;height:28px}
+@media (max-width:760px){.bmark{width:40px;height:32px}.t-navy .brand{gap:10px}}
+@media (max-width:760px){footer{padding:22px 0 92px}}
