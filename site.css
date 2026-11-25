@@ -439,3 +439,22 @@ body.lb-on .fab{display:none}
 .skpage .terms p{margin:0;color:var(--muted);font-size:.92rem}
 @media (max-width:800px){.skpage .terms{grid-template-columns:1fr}.skpage .sklist li{grid-template-columns:1fr}}
 @media (max-width:760px){.art{padding-bottom:100px}.pagehero{padding-top:28px}}
+
+/* flyer promo */
+#flyer,.flyer-card[id]{scroll-margin-top:88px}
+.flyer-gal{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.flyer-card{background:#fffdf9;border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 8px 28px rgba(70,50,30,.06);transition:transform .2s,box-shadow .2s}
+.flyer-card:hover{transform:translateY(-3px);box-shadow:0 14px 36px rgba(70,50,30,.11)}
+.flyer-card a.flyer-thumb{display:block;background:#efe8dc}
+.flyer-card a.flyer-thumb img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}
+.flyer-card .cb{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
+.flyer-card h3{margin:0 0 6px;font-weight:500;color:#13223f;font-size:1.28rem}
+.flyer-card p{margin:0 0 14px;color:var(--muted);font-size:.9rem;line-height:1.45;flex:1}
+.flyer-card .btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}
+.flyer-card .btn-outline{background:transparent;color:#13223f;border:1.5px solid #13223f}
+.flyer-card .btn-outline:hover{background:#13223f;color:#fff}
+.flyer-tease .shead .btn{margin-top:8px}
+@media (max-width:1100px){.flyer-gal{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:800px){.flyer-gal{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.flyer-gal{grid-template-columns:1fr}}
+.lb img.lb-portrait{max-height:calc(100vh - 140px);width:auto;max-width:min(1080px,92vw)}

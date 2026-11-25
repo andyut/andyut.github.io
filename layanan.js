@@ -1,5 +1,5 @@
 (function(){
-  var items=[].slice.call(document.querySelectorAll('.gal a[data-full]'));
+  var items=[].slice.call(document.querySelectorAll('.gal a[data-full], .flyer-gal a.flyer-thumb[data-full]'));
   if(!items.length) return;
   var box=document.createElement('div');
   box.className='lb';
